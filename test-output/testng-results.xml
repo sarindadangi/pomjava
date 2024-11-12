@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[After Maximizing Window]]>
+    </line>
+    <line>
+      <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@f096f37]]>
+    </line>
+    <line>
+      <![CDATA[Before navigating to:https://vinothqaacademy.com/demo-site/']]>
+    </line>
+    <line>
+      <![CDATA[After navigating to:https://vinothqaacademy.com/demo-site/']]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //input[@name='vfb-5']]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-5']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //input[@name='vfb-7']]]>
+    </line>
+    <line>
+      <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-7']]]]>
+    </line>
+    <line>
+      <![CDATA[Before Finding ElementBy.xpath: //input[@value='Male']]]>
+    </line>
+    <line>
+      <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]]]>
+    </line>
+    <line>
+      <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]]]>
+    </line>
+    <line>
+      <![CDATA[register testcase Done!]]>
+    </line>
+    <line>
+      <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-11T18:20:56 NPT" name="Suite" finished-at="2024-11-11T18:21:14 NPT" duration-ms="18275">
+    <groups>
+    </groups>
+    <test started-at="2024-11-11T18:20:56 NPT" name="ExtentTest" finished-at="2024-11-11T18:21:14 NPT" duration-ms="18275">
+      <class name="com.project.bachthree.automation.qa.tests.RegisterTest">
+        <test-method is-config="true" signature="CrossBrowsersetup(java.lang.String)[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@4944252c]" started-at="2024-11-11T18:20:57 NPT" name="CrossBrowsersetup" finished-at="2024-11-11T18:21:09 NPT" duration-ms="11991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[After Maximizing Window]]>
+            </line>
+            <line>
+              <![CDATA[Before Any Timeout Call:org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts@f096f37]]>
+            </line>
+            <line>
+              <![CDATA[Before navigating to:https://vinothqaacademy.com/demo-site/']]>
+            </line>
+            <line>
+              <![CDATA[After navigating to:https://vinothqaacademy.com/demo-site/']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CrossBrowsersetup -->
+        <test-method signature="verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@4944252c]" started-at="2024-11-11T18:21:09 NPT" name="verifyRegisterTest" description="Register test case" finished-at="2024-11-11T18:21:14 NPT" duration-ms="4886" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //input[@name='vfb-5']]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-5']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //input[@name='vfb-7']]]>
+            </line>
+            <line>
+              <![CDATA[Before sending any values to input field[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@name='vfb-7']]]]>
+            </line>
+            <line>
+              <![CDATA[Before Finding ElementBy.xpath: //input[@value='Male']]]>
+            </line>
+            <line>
+              <![CDATA[Before Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]]]>
+            </line>
+            <line>
+              <![CDATA[After Clicking:[[ChromeDriver: chrome on windows (eb692e6fb2e18d8c4539ee2a2c3302fd)] -> xpath: //input[@value='Male']]]]>
+            </line>
+            <line>
+              <![CDATA[register testcase Done!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterTest -->
+        <test-method is-config="true" signature="closeBrowserSession(org.testng.ITestResult)[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@4944252c]" started-at="2024-11-11T18:21:14 NPT" name="closeBrowserSession" finished-at="2024-11-11T18:21:14 NPT" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegisterTest status=SUCCESS method=RegisterTest.verifyRegisterTest()[pri:0, instance:com.project.bachthree.automation.qa.tests.RegisterTest@4944252c] output=Before Finding ElementBy.xpath: //input[@name='vfb-5']]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[
+== BROWSER CLOSED SUCCESSFULLY ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- com.project.bachthree.automation.qa.tests.RegisterTest -->
+    </test> <!-- ExtentTest -->
+  </suite> <!-- Suite -->
+</testng-results>
