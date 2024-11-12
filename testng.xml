@@ -7,7 +7,7 @@
   <test thread-count="5" name="Testing on chrome">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-    
+   
       <class name="com.project.bachthree.automation.qa.tests.RegisterTest"/>
       <!-- <class name="com.project.bachthree.automation.qa.tests.FormStoneChechBoxTest"/>
       <class name="com.project.bachthree.automation.qa.tests.WindowHanldeTest"/>
